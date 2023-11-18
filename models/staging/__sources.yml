@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: crm_hubspot
+    schema: dbo
+    tables: 
+      - name: contacts
+        description: Hubspot CRM contacts details
+        columns:
+           - name: contact_id
+             description: ID of the Hubspot contact
+           - name: firstname
+             description: First Name of the contact
+           - name: lastname
+             description: Last name of the contact
+           - name: createdate
+             description: Date the record is created
+           - name: lastmodifieddate
+             description: Latest date of modification
+           - name: email
+             description: Email address of the Hubspot contact
+           - name: archived
+             description: Is the record archived?   
